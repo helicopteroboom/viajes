@@ -1,0 +1,52 @@
+html {
+    font-family: 'Arial', sans-serif;
+    background: url('bg.jpeg') center 10%; 
+}
+html::before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -10;
+}
+h1 {
+    color: tomato;
+
+    font-weight: 100;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+p {
+    color:deeppink;
+    margin-bottom: 14px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 24px;
+}
+
+a {
+    color:currentColor;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.detail {
+    margin-top: 42px;
+    font-size: 13px;
+    color:gray;
+}
